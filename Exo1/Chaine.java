@@ -1,4 +1,4 @@
-package Exo1;
+package Solution.Exo1;
 
 public class Chaine {
     public static void main (String args[])

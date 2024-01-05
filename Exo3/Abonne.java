@@ -1,4 +1,4 @@
-package Exo3;
+package Solution.Exo3;
 
 public class Abonne {
     private String Name, PhoneNumber;

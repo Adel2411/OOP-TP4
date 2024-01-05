@@ -1,5 +1,4 @@
-package Exo3;
-
+package Solution.Exo3;
 import java.util.ArrayList;
 import java.util.Collections;
 

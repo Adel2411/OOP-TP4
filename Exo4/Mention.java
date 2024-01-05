@@ -1,4 +1,4 @@
-package Exo4;
+package Solution.Exo4;
 
 public enum Mention {
     N("NON ADMIS"), P("PASSABLE"), AB("ASSEZ BIEN"), B("BIEN"), TB("TRES BIEN");

@@ -1,4 +1,4 @@
-package Exo3;
+package Solution.Exo3;
 
 import java.util.Comparator;
 

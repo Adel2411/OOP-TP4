@@ -1,4 +1,4 @@
-package Exo3;
+package Solution.Exo3;
 
 public class AppliTepertoire {
     public static void main(String[] args) {
