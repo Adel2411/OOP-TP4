@@ -1,4 +1,4 @@
-package Solution.Exo3;
+package Exo3;
 
 public class AppliTepertoire {
     public static void main(String[] args) {
@@ -13,9 +13,9 @@ public class AppliTepertoire {
         System.out.println("\n\n-------------- TEST REPERTOIRE -------------\n");
 
         Repertoire Rep = new Repertoire(3);
-        Rep.addAbonne(a3);
-        Rep.addAbonne(a2);
         Rep.addAbonne(a1);
+        Rep.addAbonne(a2);
+        Rep.addAbonne(a3);
 
         System.out.println("\nAVANT LE TRIE : \n");
         System.out.println("Abonne1 : \n" + Rep.getAbonne(0) + "\n\nAbonne2 : \n" + Rep.getAbonne(1) + "\n\nAbonne3 : \n" + Rep.getAbonne(2) );
@@ -25,5 +25,8 @@ public class AppliTepertoire {
         Rep.getAbonnesTries();
         System.out.println("\nAPRES LE TRIE : \n");
         System.out.println("Abonne1 : \n" + Rep.getAbonne(0) + "\n\nAbonne2 : \n" + Rep.getAbonne(1) + "\n\nAbonne3 : \n" + Rep.getAbonne(2) );
+
+
+        System.out.println(Rep.getNumero("adel"));
     }
 }

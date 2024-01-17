@@ -1,4 +1,4 @@
-package Solution.Exo4;
+package Exo4;
 
 public class App {
     public static void main(String[] args) {
